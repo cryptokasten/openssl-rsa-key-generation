@@ -2,13 +2,13 @@
 #+PROPERTY: header-args:sh :session *shell rsa-key-generation sh* :results silent raw
 #+PROPERTY: header-args:python :session *shell rsa-key-generation python* :results silent raw
 
-Generate private key
+** Generate private key
 
 #+BEGIN_SRC sh
 openssl genrsa -out ./keys/private.pem 2048
 #+END_SRC
 
-Export public key
+** Export public key
 
 #+BEGIN_SRC sh
 openssl rsa -in ./keys/private.pem -outform PEM -pubout -out ./keys/public.pem
