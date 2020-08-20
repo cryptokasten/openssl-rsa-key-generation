@@ -1,5 +1,5 @@
 #+TITLE: RSA key generation with OpenSSL
-#+PROPERTY: header-args:sh :session *shell rsa-key-generation sh* :results pp
+#+PROPERTY: header-args:sh :session *shell rsa-key-generation sh* :results silent raw
 
 ** Generate private key
 
