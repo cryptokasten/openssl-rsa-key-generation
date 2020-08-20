@@ -7,11 +7,6 @@
 openssl genrsa -out ./keys/private.pem 2048
 #+END_SRC
 
-#+RESULTS:
-: Generating RSA private key, 2048 bit long modulus
-: .............+++++
-: ..............................................+++++
-: e is 65537 (0x10001)
 
 ** Export public key
 
@@ -19,8 +14,6 @@ openssl genrsa -out ./keys/private.pem 2048
 openssl rsa -in ./keys/private.pem -outform PEM -pubout -out ./keys/public.pem
 #+END_SRC
 
-#+RESULTS:
-: writing RSA key
 
 ** View private key
 
