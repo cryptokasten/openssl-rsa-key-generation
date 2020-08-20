@@ -7,6 +7,12 @@
 openssl genrsa -out ./keys/private.pem 2048
 #+END_SRC
 
+** Generate encrypted private key
+
+#+BEGIN_SRC sh
+openssl genrsa -des3 -out ./keys/private-encrypted.pem 2048
+#+END_SRC
+
 ** Export public key
 
 #+BEGIN_SRC sh
