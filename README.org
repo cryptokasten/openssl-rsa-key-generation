@@ -1,6 +1,12 @@
 #+TITLE: RSA key generation with OpenSSL
 #+PROPERTY: header-args:sh :session *shell rsa-key-generation sh* :results silent raw
 
+** System environment
+
+- Debian 9.11
+
+- OpenSSL 1.0.2u
+
 ** Generate private key
 
 #+BEGIN_SRC sh
